@@ -1,9 +1,9 @@
-SENHA_JWT = SENHA PARA SEGREDO
+SENHA_JWT =SENHA PARA SEGREDO
 
-DB_HOST = localhost
-DB_USER = postgres 
-DB_PASSWORD = 123456
-DB_DATABASE = autinclude 
+DB_HOST =localhost
+DB_USER =postgres 
+DB_PASSWORD =123456
+DB_DATABASE =autinclude 
 
 PORT = 3000
 
