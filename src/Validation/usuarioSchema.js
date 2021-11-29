@@ -36,7 +36,16 @@ const cadastrarUsuario = yup.object().shape({
 });
 
 const loginUsuario = yup.object().shape({
+	email: yup
+		.string()
+		.email()
+		.required()
+		.max(100),
 
+	senha: yup
+		.string()
+		.required()
+		.min(6)
 });
 
 

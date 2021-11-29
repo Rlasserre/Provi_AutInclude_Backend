@@ -2,12 +2,12 @@ const express = require('express');
 //const filtroLogin = require('./filtros/filtroLogin');
 
 const cadastroUsuario = require('./Controllers/usuario/cadastro');
-//const funcionalidadeUsuario = require('./controladores');
+const logar = require('./Controllers/usuario/login');
 
 const router = express();
 
-//router.post('/login', funcionalidadeCliente.fazerLogin);
-router.post('/usuario', cadastroUsuario);
+router.post('/login', logar);
+router.post('/register', cadastroUsuario);
 
 
 module.exports = router;
