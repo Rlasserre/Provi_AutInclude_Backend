@@ -7,7 +7,7 @@ const logar = require('./Controllers/usuario/login');
 const router = express();
 
 router.post('/login', logar);
-router.post('/usuario', cadastroUsuario);
+router.post('/register', cadastroUsuario);
 
 
 module.exports = router;
